@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA035D911E60DEE2006B402A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035D901E60DEE2006B402A /* AppDelegate.m */; };
+		FA035D941E60DEE2006B402A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035D931E60DEE2006B402A /* main.m */; };
+		FA035D971E60DEE2006B402A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035D961E60DEE2006B402A /* ViewController.m */; };
+		FA035D991E60DEE2006B402A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA035D981E60DEE2006B402A /* Assets.xcassets */; };
+		FA035D9C1E60DEE2006B402A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA035D9A1E60DEE2006B402A /* Main.storyboard */; };
+		FA035DA71E60DEE2006B402A /* UndoManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035DA61E60DEE2006B402A /* UndoManagerTests.m */; };
+		FA035DB31E6170DC006B402A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035DB21E6170DC006B402A /* Model.m */; };
+		FA035DB71E61892D006B402A /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035DB61E61892D006B402A /* WindowController.m */; };
+		FA3776E81E641C0D00B07FEB /* Model+UndoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3776E71E641C0D00B07FEB /* Model+UndoManager.m */; };
+		FA49EE121E61BB8D00DDBCDF /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FA49EE111E61BB8D00DDBCDF /* View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA035DA31E60DEE2006B402A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA035D841E60DEE2006B402A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA035D8B1E60DEE2006B402A;
+			remoteInfo = UndoManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA035D8C1E60DEE2006B402A /* UndoManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UndoManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA035D8F1E60DEE2006B402A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA035D901E60DEE2006B402A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA035D931E60DEE2006B402A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA035D951E60DEE2006B402A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA035D961E60DEE2006B402A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA035D981E60DEE2006B402A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA035D9B1E60DEE2006B402A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA035D9D1E60DEE2006B402A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA035DA21E60DEE2006B402A /* UndoManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndoManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA035DA61E60DEE2006B402A /* UndoManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndoManagerTests.m; sourceTree = "<group>"; };
+		FA035DA81E60DEE2006B402A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA035DB11E6170DC006B402A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		FA035DB21E6170DC006B402A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		FA035DB51E61892D006B402A /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		FA035DB61E61892D006B402A /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		FA3776E61E641C0D00B07FEB /* Model+UndoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Model+UndoManager.h"; sourceTree = "<group>"; };
+		FA3776E71E641C0D00B07FEB /* Model+UndoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Model+UndoManager.m"; sourceTree = "<group>"; };
+		FA49EE101E61BB8D00DDBCDF /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		FA49EE111E61BB8D00DDBCDF /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA035D891E60DEE2006B402A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA035D9F1E60DEE2006B402A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA035D831E60DEE2006B402A = {
+			isa = PBXGroup;
+			children = (
+				FA035D8E1E60DEE2006B402A /* UndoManager */,
+				FA035DA51E60DEE2006B402A /* UndoManagerTests */,
+				FA035D8D1E60DEE2006B402A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA035D8D1E60DEE2006B402A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA035D8C1E60DEE2006B402A /* UndoManager.app */,
+				FA035DA21E60DEE2006B402A /* UndoManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA035D8E1E60DEE2006B402A /* UndoManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA035D8F1E60DEE2006B402A /* AppDelegate.h */,
+				FA035D901E60DEE2006B402A /* AppDelegate.m */,
+				FA035D981E60DEE2006B402A /* Assets.xcassets */,
+				FA035D9D1E60DEE2006B402A /* Info.plist */,
+				FA035D9A1E60DEE2006B402A /* Main.storyboard */,
+				FA035DB11E6170DC006B402A /* Model.h */,
+				FA035DB21E6170DC006B402A /* Model.m */,
+				FA3776E61E641C0D00B07FEB /* Model+UndoManager.h */,
+				FA3776E71E641C0D00B07FEB /* Model+UndoManager.m */,
+				FA035D921E60DEE2006B402A /* Supporting Files */,
+				FA49EE101E61BB8D00DDBCDF /* View.h */,
+				FA49EE111E61BB8D00DDBCDF /* View.m */,
+				FA035D951E60DEE2006B402A /* ViewController.h */,
+				FA035D961E60DEE2006B402A /* ViewController.m */,
+				FA035DB51E61892D006B402A /* WindowController.h */,
+				FA035DB61E61892D006B402A /* WindowController.m */,
+			);
+			path = UndoManager;
+			sourceTree = "<group>";
+		};
+		FA035D921E60DEE2006B402A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA035D931E60DEE2006B402A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA035DA51E60DEE2006B402A /* UndoManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA035DA61E60DEE2006B402A /* UndoManagerTests.m */,
+				FA035DA81E60DEE2006B402A /* Info.plist */,
+			);
+			path = UndoManagerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA035D8B1E60DEE2006B402A /* UndoManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA035DAB1E60DEE2006B402A /* Build configuration list for PBXNativeTarget "UndoManager" */;
+			buildPhases = (
+				FA035D881E60DEE2006B402A /* Sources */,
+				FA035D891E60DEE2006B402A /* Frameworks */,
+				FA035D8A1E60DEE2006B402A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UndoManager;
+			productName = UndoManager;
+			productReference = FA035D8C1E60DEE2006B402A /* UndoManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA035DA11E60DEE2006B402A /* UndoManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA035DAE1E60DEE2006B402A /* Build configuration list for PBXNativeTarget "UndoManagerTests" */;
+			buildPhases = (
+				FA035D9E1E60DEE2006B402A /* Sources */,
+				FA035D9F1E60DEE2006B402A /* Frameworks */,
+				FA035DA01E60DEE2006B402A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA035DA41E60DEE2006B402A /* PBXTargetDependency */,
+			);
+			name = UndoManagerTests;
+			productName = UndoManagerTests;
+			productReference = FA035DA21E60DEE2006B402A /* UndoManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA035D841E60DEE2006B402A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "fournova Software GmbH";
+				TargetAttributes = {
+					FA035D8B1E60DEE2006B402A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UN97WY764J;
+						ProvisioningStyle = Automatic;
+					};
+					FA035DA11E60DEE2006B402A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UN97WY764J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA035D8B1E60DEE2006B402A;
+					};
+				};
+			};
+			buildConfigurationList = FA035D871E60DEE2006B402A /* Build configuration list for PBXProject "UndoManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA035D831E60DEE2006B402A;
+			productRefGroup = FA035D8D1E60DEE2006B402A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA035D8B1E60DEE2006B402A /* UndoManager */,
+				FA035DA11E60DEE2006B402A /* UndoManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA035D8A1E60DEE2006B402A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA035D991E60DEE2006B402A /* Assets.xcassets in Resources */,
+				FA035D9C1E60DEE2006B402A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA035DA01E60DEE2006B402A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA035D881E60DEE2006B402A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA035DB71E61892D006B402A /* WindowController.m in Sources */,
+				FA035D971E60DEE2006B402A /* ViewController.m in Sources */,
+				FA49EE121E61BB8D00DDBCDF /* View.m in Sources */,
+				FA035D941E60DEE2006B402A /* main.m in Sources */,
+				FA035D911E60DEE2006B402A /* AppDelegate.m in Sources */,
+				FA035DB31E6170DC006B402A /* Model.m in Sources */,
+				FA3776E81E641C0D00B07FEB /* Model+UndoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA035D9E1E60DEE2006B402A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA035DA71E60DEE2006B402A /* UndoManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA035DA41E60DEE2006B402A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA035D8B1E60DEE2006B402A /* UndoManager */;
+			targetProxy = FA035DA31E60DEE2006B402A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA035D9A1E60DEE2006B402A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA035D9B1E60DEE2006B402A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA035DA91E60DEE2006B402A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA035DAA1E60DEE2006B402A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA035DAC1E60DEE2006B402A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UN97WY764J;
+				INFOPLIST_FILE = UndoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fournova.UndoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA035DAD1E60DEE2006B402A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UN97WY764J;
+				INFOPLIST_FILE = UndoManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fournova.UndoManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA035DAF1E60DEE2006B402A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UN97WY764J;
+				INFOPLIST_FILE = UndoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fournova.UndoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoManager.app/Contents/MacOS/UndoManager";
+			};
+			name = Debug;
+		};
+		FA035DB01E60DEE2006B402A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UN97WY764J;
+				INFOPLIST_FILE = UndoManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fournova.UndoManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoManager.app/Contents/MacOS/UndoManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA035D871E60DEE2006B402A /* Build configuration list for PBXProject "UndoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA035DA91E60DEE2006B402A /* Debug */,
+				FA035DAA1E60DEE2006B402A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA035DAB1E60DEE2006B402A /* Build configuration list for PBXNativeTarget "UndoManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA035DAC1E60DEE2006B402A /* Debug */,
+				FA035DAD1E60DEE2006B402A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA035DAE1E60DEE2006B402A /* Build configuration list for PBXNativeTarget "UndoManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA035DAF1E60DEE2006B402A /* Debug */,
+				FA035DB01E60DEE2006B402A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA035D841E60DEE2006B402A /* Project object */;
+}
